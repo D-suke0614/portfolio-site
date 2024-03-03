@@ -18,7 +18,11 @@
       }
     ],
     "no-image-element": "off",
-    "@next/next/no-img-element": "off"
+    "@next/next/no-img-element": "off",
+    "no-empty-function": "off",
+  "@typescript-eslint/no-empty-function": 0,
+  "@typescript-eslint/no-unused-vars": 0,
+  "unused-imports/no-unused-imports": "error"
   },
   "ignorePatterns": [
     "**/__tests__/*.ts",
@@ -34,8 +38,5 @@
     "browser": true,
     "node": true,
     "es6": true
-  },
-  "@typescript-eslint/no-empty-function": 0,
-  "@typescript-eslint/no-unused-vars": 0,
-  "unused-imports/no-unused-imports": "error"
+  }
 }
