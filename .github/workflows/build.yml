@@ -26,7 +26,7 @@ jobs:
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
 
       - name: yarn add
-        if: ${{ steps.node_module_cache_id.outputs.cache-hit !== 'true' }}
+        if: ${{ steps.node_module_cache_id.outputs.cache-hit != 'true' }}
         run: yarn install
 
       - name: app build
