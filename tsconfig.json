@@ -17,10 +17,15 @@
         "name": "next"
       }
     ],
+    "baseUrl": "./",
     "paths": {
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "extends": "./tsconfig.json",
+  "includes": ["src/**/*.ts", "src/**/*.tsx", ".eslintrc.json"],
+  "exclude": ["node_modules", "dist"]
+  // デフォルトであった設定（一応残しておく）
+  // "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  // "exclude": ["node_modules"]
 }
