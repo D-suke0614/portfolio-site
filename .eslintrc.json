@@ -19,16 +19,17 @@
     ],
     "no-image-element": "off",
     "@next/next/no-img-element": "off",
-    "no-empty-function": "off",
-    "@typescript-eslint/no-empty-function": 0,
-    "@typescript-eslint/no-unused-vars": 0,
+    "no-empty-function": "error",
+    "@typescript-eslint/no-empty-function": "error",
+    "@typescript-eslint/no-unused-vars": "error",
     "unused-imports/no-unused-imports": "error"
   },
   "ignorePatterns": [
     "**/__tests__/*.ts",
     "**/*.test.ts(x)",
     "**/__mocks__/*.ts",
-    "next-env.d.ts"],
+    "next-env.d.ts"
+  ],
   "settings": {
     "react": {
       "version": "detect"
