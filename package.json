@@ -9,6 +9,8 @@
     "lint": "next lint",
     "lint:fix": "eslint src/**/*.{ts,tsx} --fix",
     "format": "prettier --write .",
+    "lint:style": "stylelint '**/*.{css,scss,sass}'",
+    "lint:style:fix": "stylelint --fix '**/*.{css,scss,sass}'",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -33,7 +35,12 @@
     "postcss": "^8",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
+    "sass": "^1.71.1",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-order": "^6.0.4",
     "tailwindcss": "^3.3.0",
+    "typed-scss-modules": "^8.0.0",
     "typescript": "^5"
   },
   "lint-staged": {
@@ -41,6 +48,10 @@
       "yarn lint",
       "yarn format",
       "yarn lint:fix"
+    ],
+    "src/scss/**/*.scss": [
+      "yarn lint:style",
+      "yarn lint:style:fix"
     ]
   }
 }
