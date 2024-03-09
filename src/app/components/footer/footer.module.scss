@@ -1,0 +1,10 @@
+@use '../../variables.scss' as variables;
+
+.footer {
+  padding: 20px 96px;
+  background-color: variables.$color-gray-primary;
+  &__wrapper {
+    text-align: center;
+    color: variables.$color-gray-secondary;
+  }
+}
