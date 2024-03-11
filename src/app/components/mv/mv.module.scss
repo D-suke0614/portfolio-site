@@ -1,0 +1,23 @@
+.mv {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__contents {
+    text-align: center;
+    font-weight: 500;
+    // line-height: 1.5;
+  }
+
+  &__title {
+    font-size: 68px;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+
+  &__jobName {
+    font-size: 24px;
+    font-style: italic;
+  }
+}
