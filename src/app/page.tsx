@@ -1,3 +1,9 @@
+import Mv from "./components/mv/Mv";
+
 export default function Home() {
-  return <main className="">Hello World</main>;
+  return (
+    <main className="app">
+      <Mv />
+    </main>
+  );
 }
