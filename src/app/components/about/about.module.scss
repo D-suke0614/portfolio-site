@@ -1,0 +1,43 @@
+.about {
+  width: 100%;
+  padding: 5% 30% 0;
+  display: flex;
+  align-items: flex-start;
+  // justify-content: space-around;
+  gap: 120px;
+
+  &__left{}
+
+  &__image {
+    border-radius: 50%;
+  }
+
+  &__right {
+    font-size: 24px;
+  }
+
+  &__nameSpace {
+    padding: 0 8px;
+    border-bottom: 4px solid gray;
+    display: flex;
+    align-items: center;
+  }
+
+  &__name {
+    margin-right: 48px;
+    font-weight: 500;
+  }
+
+  &__snsSpace {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &__sns {
+    &:hover {
+      opacity: 0.5;
+      color: gray;
+    }
+  }
+}

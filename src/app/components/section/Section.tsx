@@ -8,7 +8,7 @@ const Section = ({
 }: Readonly<{
   children: React.ReactNode;
   title: string;
-  bg?: string;
+  bg: "gray" | "white";
 }>) => {
   return (
     <section
