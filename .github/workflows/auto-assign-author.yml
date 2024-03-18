@@ -10,6 +10,8 @@ permissions:
 
 jobs:
   assign:
+    if: github.actor != 'renovate[bot]'
+
     name: Assign yourself
     runs-on: ubuntu-latest
     steps:
