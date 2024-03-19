@@ -1,6 +1,6 @@
 .about {
   width: 100%;
-  padding: 0 30% 0;
+  padding: 5% 30% 0;
   display: flex;
   align-items: flex-start;
   // justify-content: space-around;
@@ -10,14 +10,13 @@
 
   &__image {
     border-radius: 50%;
-    max-width: none;
   }
 
   &__right {
+    font-size: 24px;
   }
 
   &__nameSpace {
-    font-size: 24px;
     padding: 0 8px;
     border-bottom: 4px solid gray;
     display: flex;
@@ -40,9 +39,5 @@
       opacity: 0.5;
       color: gray;
     }
-  }
-
-  &__content {
-    margin-top: 20%;
   }
 }

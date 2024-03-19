@@ -14,7 +14,7 @@ const SNS_ICONS = [
 
 const About = () => {
   return (
-    <Section sectionId="about" title="About" bg="gray">
+    <Section title="About" bg="gray">
       <div className={styles.about}>
         <div className={styles.about__left}>
           <Image
@@ -39,12 +39,6 @@ const About = () => {
                 </Link>
               ))}
             </div>
-          </div>
-          <div className={styles.about__content}>
-            <p>
-              フロントエンドエンジニア
-              LP制作からWordpressのテーマ実装、SPA開発など幅広く手掛けてきました
-            </p>
           </div>
         </div>
       </div>

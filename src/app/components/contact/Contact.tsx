@@ -2,7 +2,7 @@ import Section from "../section/Section";
 
 const Contact = () => {
   return (
-    <Section title={"Contact"} bg={"gray"}>
+    <Section sectionId="contact" title={"Contact"} bg={"gray"}>
       <div>
         <p>お仕事等のお問い合わせは、XのDMよりお願いします。</p>
       </div>
