@@ -42,7 +42,7 @@ const About = () => {
           </div>
           <div className={styles.about__content}>
             <p>
-              フロントエンドエンジニア
+              フロントエンドエンジニア<br></br>
               LP制作からWordpressのテーマ実装、SPA開発など幅広く手掛けてきました
             </p>
           </div>
