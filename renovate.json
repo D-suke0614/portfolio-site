@@ -1,16 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
+    "config:base",
+    ":timezone(Asia/Tokyo)",
+    ":prHourlyLimitNone",
+    ":automergePatch"
   ],
   "dependencyDashboard": false,
-  "timezone": "Asia/Tokyo",
-  "schedule": [
-    "every 1 hour after 00:00 and before 23:59 every day"
-  ],
-  "automergeSchedule": [
-    "every 1 hour after 00:00 and before 23:59 every day"
-  ],
+  "schedule": ["after 9am on monday", "before 12am on monday"],
+  "automergeSchedule": ["after 9am on monday", "before 12am on monday"],
   "major": {
     "enabled": false
   },
