@@ -34,6 +34,7 @@ const About = () => {
                   href={item.url}
                   key={item.url}
                   className={styles.about__sns}
+                  target="_blank"
                 >
                   {item.icon}
                 </Link>
