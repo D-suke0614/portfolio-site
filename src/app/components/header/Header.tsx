@@ -9,7 +9,7 @@ type HeaderItem = {
 
 const HEADER_ITEMS: HeaderItem[] = [
   { id: "#about", title: "About" },
-  { id: "#skill", title: "Skill" },
+  { id: "#skills", title: "Skills" },
   { id: "#work", title: "Work" },
   { id: "#contact", title: "Contact" },
 ];
