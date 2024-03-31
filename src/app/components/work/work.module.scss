@@ -1,0 +1,29 @@
+.work__cards {
+  width: 100%;
+  padding: 0 15% 24px;
+  border: 1px black solid;
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+
+.work__card {
+  padding: 4px;
+  width: 23%;
+  margin-top: 24px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 16px;
+  }
+}
